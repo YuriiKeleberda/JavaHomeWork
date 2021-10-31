@@ -64,16 +64,19 @@ public class Library {
 
 
     private static void print_books(){
+        System.out.println("Все книги: ");
         for (Book book : books) {
-            System.out.println(book.name);
+            System.out.println(book.name + ";");
         }
-
+        System.out.println();
          }
 
     private static void print_readers(){
+        System.out.println("Все читатели: ");
         for (Reader reader : readers) {
-            System.out.println(reader.fio);
+            System.out.println(reader.fio + ";");
         }
+        System.out.println();
  }
 }
 
